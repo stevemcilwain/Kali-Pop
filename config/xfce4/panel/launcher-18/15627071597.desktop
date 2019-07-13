@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=metasploit framework
+Encoding=UTF-8
+Exec=sh -c "service postgresql start && msfdb init && msfconsole;${SHELL:-bash}"
+Icon=kali-metasploit-framework.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=08-exploitation-tools;
+X-Kali-Package=metasploit-framework
+X-XFCE-Source=file:///usr/share/applications/kali-msfconsole.desktop

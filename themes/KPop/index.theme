@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Pop
+Comment=
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Pop
+MetacityTheme=Pop
+IconTheme=Pop
+CursorTheme=Pop
+CursorSize=48
+

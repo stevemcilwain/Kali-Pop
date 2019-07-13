@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=dirbuster
+Comment=
+Exec=sh -c "dirbuster;${SHELL:-bash}"
+Icon=kali-menu
+Path=
+Terminal=false
+StartupNotify=false

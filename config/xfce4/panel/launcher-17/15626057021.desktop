@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=burpsuite
+Comment=
+Exec=sh -c "java -jar /usr/bin/burpsuite"
+Icon=kali-burpsuite
+Path=/root
+Terminal=false
+StartupNotify=false

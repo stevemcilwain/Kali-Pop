@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=Flameshot
+GenericName=Screenshot tool
+Comment=Powerful yet simple to use screenshot software.
+Keywords=flameshot;screenshot;capture;shutter;
+Exec=flameshot gui
+Icon=flameshot
+Terminal=false
+Type=Application
+Categories=Graphics;
+StartupNotify=false
+Actions=Configure;Capture;
+X-XFCE-Source=file:///usr/share/applications/flameshot.desktop
+
+Path=
+
+[Desktop Action Configure]
+Name=Configure
+Exec=flameshot config
+
+[Desktop Action Capture]
+Name=Take screenshot
+Exec=flameshot gui --delay 500
